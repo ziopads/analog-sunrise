@@ -8,6 +8,6 @@ public class AnalogController {
 
     @GetMapping("/analog")
     public String analogGreeting(){
-        return "Analog is in many ways inferior to digital.";
+        return "Analog is in many ways inferior to synthetic.";
     }
 }
