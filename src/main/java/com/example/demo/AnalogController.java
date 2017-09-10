@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class AnalogController {
 
     @GetMapping("/analog")
-    public String analogGreeting(){
-        return "Analog is in many ways inferior to synthetic.";
+
+        return "Analog is in many ways superior to digilog.";
+
     }
 }
