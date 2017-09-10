@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AnalogController {
 
     @GetMapping("/analog")
-
+    public String homeGreeting() {
         return "Analog is in many ways superior to digilog.";
 
     }
