@@ -8,7 +8,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String homeGreeting() {
-        return "This is an analog home page.";
+        return "This is an analog home page and a half.";
     }
 
 }
